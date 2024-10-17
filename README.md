@@ -25,13 +25,6 @@ BankTrust AI is a fraud detection system designed to evaluate the credibility of
 3. **Machine Learning Evaluation**: The machine learning model evaluates the client’s loan history and repayment behavior.
 4. **Decision Making**: The system flags credible clients in the database, allowing them to proceed with loan transactions.
 
-## Challenges & Solutions
-- **Data Creation**: No ready-made datasets were available, so custom data was created.
-- **Database Format for Arabic**: We had to ensure the database supported Arabic text, which required research and adjustments.
-- **Flask and Databricks Integration**: First-time use of Flask posed challenges in connecting to Azure Databricks.
-- **Data Relationships**: Adjustments were made to table schemas to correctly link loan, transaction, and payment tables.
-- **Cost Management**: To manage costs, the data warehouse was only opened and used as needed.
-
 ## Installation & Setup
 
 ### Prerequisites
